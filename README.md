@@ -40,16 +40,17 @@ To get started with the project, follow these steps:
    npm install
    ```
 
-4 **Change directory to backend**
+4. **Change directory to backend**
   ```bash
    cd backend
-  ```
+  ``` 
 
 5. **Install the required dependencies for backend**
-```bash
+ ```bash
   npm install
-```
-6.**Replace the mogodburi and secret key to your actual values in .env file**
+ ```
+
+6. **Replace the mogodburi and secret key to your actual values in .env file**
 
 7. **Start the server**
 ``` bash
