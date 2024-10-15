@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.navbar li {
+  color: rgb(12, 131, 236);
+  font-size: 1.4rem;
+}
+
+.navbar img {
+  cursor: pointer;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(74, 221, 58);
+}
+
+.active-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.shoppy {
+  color: green;
+  margin-left: 50px;
+}
+
+@media (max-width: 600px) {
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .navbar li {
+    margin: 15px 0;
+  }
+
+  .shoppy {
+    margin-left: 0px;
+  }
+}
+
+.auth_box {
+  display: flex;
+}
+
+.auth_box_in a {
+  text-decoration: none;
+  padding: 10px;
+  color: greenyellow;
+}
+
+.auth_box_in {
+  display: flex;
+  align-items: center;
+}
+
+.logout_btn {
+  background-color: #000000;
+  color: red;
+  margin: 0px 10px;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}

@@ -1,0 +1,25 @@
+.ordered_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order_heading {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.ordered_in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tick_img {
+  width: 100px;
+  height: 100px;
+}
+
+.para {
+  font-size: 1.5rem;
+}

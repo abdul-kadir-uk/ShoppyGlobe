@@ -1,0 +1,62 @@
+.user_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-details-container {
+  margin: 20px 0px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  width: 1000px;
+  background-color: #ffffff;
+}
+
+.user_head {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.user-details p {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.edit-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.edit-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.user_btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 1.1rem;
+}
+
+.user_button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,86 @@
+.checkout-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-container h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.cart-items-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.total-amount {
+  margin-bottom: 20px;
+}
+
+.total-amount h3 {
+  font-size: 1.3em;
+  color: #555;
+}
+
+.total-amount span {
+  font-weight: bold;
+  color: #333;
+}
+
+.payment-options {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.payment-options li {
+  margin-bottom: 10px;
+}
+
+.payment-options input {
+  margin-right: 10px;
+}
+
+.continue-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.continue-btn:hover {
+  background-color: #218838;
+}
+
+.continue-btn:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .checkout-container {
+    padding: 10px;
+  }
+
+  .continue-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+  }
+}
