@@ -51,6 +51,11 @@ To get started with the project, follow these steps:
  ```
 
 6. **Replace the mogodburi and secret key to your actual values in .env file**
+```bash 
+  mongodb_uri=your_mongodb_uri
+  port=1000
+  secretkey=your_secret_key
+```
 
 7. **Start the server**
 ``` bash
